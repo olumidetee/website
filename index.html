@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,27 +10,73 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
     <script src="bootstrap.css"></script>
+    <link rel="stylesheet" href="main.js">
     <script src="main.js"></script>
+    <script src="js/jquery.min.js"></script>
   
 </head>
 <body>
-    <div class="container">
-        <div class="nav">
-            <img src="toba.png" alt="" srcset="">
-            <ul>
-                <li> <a href="">Home</a> </li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+    <header>
+        <div class="container">
+           <div class="nav">
+               <img src="ade.png" alt="" srcset="">
+                <ul>
+                  <li> <a href=""> <b>Home</b> </a> </li>
+                  <li><a href=""> <b>Work</b> </a></li>
+                  <li><a href=""><b>Services</b> </a></li>
+                  <li><a href=""> <b>Contact</b> </a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria aria-haspopup="true" aria-expanded="true">
+                        info
+                        <span class="caret"></span>
+
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-menu">proflie</li>
+                        <li > <a href="">olumide</a> </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </header>
     <section class="slider">
+     <ul class="slider-forest" id="slider-forest">
+        <li class="img1">
             <h2> <b> olumide Toba</b> <span>Website</span></h2>
             <p>We bring the world to your fingertips</p>
             <a href="" class="btn btn-primary">login</a>
             <a href="" class="btn btn-success">Sign up</a>
+        </li>
+        <li class="img2">
+            <h2> <b> olumide Toba</b> <span>Website</span></h2>
+            <p>We bring the world to your fingertips</p>
+            <a href="" class="btn btn-primary">login</a>
+            <a href="" class="btn btn-success">Sign up</a>
+        </li>
+        <li class="img3">
+            <h2> <b> olumide Toba</b> <span>Website</span></h2>
+            <p>We bring the world to your fingertips</p>
+            <a href="" class="btn btn-primary">login</a>
+            <a href="" class="btn btn-success">Sign up</a>
+        </li>
+     </ul>    
     </section>
+    <script src="js/main.js" type="text/javascript"></script>
+    <article class="intro-area white" id="intro">
+        <div class="container">
+           <div class="row">
+               <div class="col-sm-12">
+                   <h2>Work with Olumide</h2>
+                   <div class="sub-heading">
+                     <p>
+                        Olumide toba is a young man with vast insight of what he is into <br> and wants to initiate a foundation to catch them young
+                     </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
     
 </body>
 </html>
